@@ -1,0 +1,36 @@
+﻿<!-- doctype은 html이 최신 버전이라는 것을 브라우저에게 알려줌 -->
+<!DOCTYPE html>
+<!-- html파일은 html코드, css코드, js코드로 구성 -->
+<html lang="en">
+  <!-- head영역에는 메타 콘텐츠가 들어감 -->
+  <head>
+    <!-- 외부 파일을 참조하기 위해 link 태그를 사용하는데 link는 시작 태그만 있고 종료 태그가 없음 'void(빈) 요소' 라고 함. -->
+    <!-- rel은 만든 링크의 유형을 정의함, 여기서 링크는 클릭해서 들어가는 링크를 의미하는 건 아님. -->
+    <!-- 브라우저는 확장자에 따라 파일의 내용을 추측하지 않기에 rel 속성을 통해 파일에 해당하는 값을 입력해줘야함 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,400&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="daily-challenge.css" rel="stylesheet" />
+    <title>My Daily Challenge</title>
+  </head>
+
+  <body>
+    <!-- h 태그는 head의 약자로 주로 웹사이트의 주요 제목을 표현 -->
+    <!-- style 영역을 CSS 코드라고 함. -->
+    <h1>Mhlee' Challenge for 2023-11-30</h1>
+
+    <!-- p = paragraph -->
+    <p id="todays-challenge">
+      Learn about the basics of Web Development - Specifically dive into HTML &
+      CSS
+    </p>
+    <p>
+      <!-- a = anchor, href = hypertext reference  -->
+      I'll achieve this goal by diving into
+      <a href="https://www.google.com">more learning resources.</a>
+    </p>
+  </body>
+</html>
