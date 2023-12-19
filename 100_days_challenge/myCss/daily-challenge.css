@@ -1,0 +1,31 @@
+﻿body {
+  /* 요소의 4면의 여백 */
+  margin: 50px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+h1 {
+  font-size: 20px;
+  color: black;
+}
+
+ol {
+  list-style: none;
+  border: 5px, solid, black;
+
+}
+
+#todays-challenge {
+   background-color: rgb(223, 136, 124);
+   color: black;
+   font-weight: bold;
+   font-size: 30px;
+   padding: 24px 12px 12px 12px;
+   
+   
+}

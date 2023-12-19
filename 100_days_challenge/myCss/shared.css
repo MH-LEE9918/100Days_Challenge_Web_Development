@@ -1,0 +1,26 @@
+﻿body {
+    /* body의 내부요소들을 정렬 */
+    text-align: center;
+    background-color: rgb(243, 231, 225);
+    /* 요소의 4면의 여백 */
+    color: rgb(83, 75, 75);
+}
+  
+h1 {
+    font-family: 'Oswald', sans-serif; 
+}
+  
+p {
+    font-family: 'Fira Sans', serif; 
+}
+  
+a {
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(167, 1, 78);
+    text-decoration: none;
+}
+
+/* hover는 가상 selector를 나타내는 기호로, a:hover는 페이지의 앵커요소에 마우스를 갖다 댔을 때 해당 효과가 나타나게 함, 매우 중요하므로 반드시 숙지! */ 
+a:hover {
+    text-decoration: underline;
+}

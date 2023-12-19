@@ -13,24 +13,35 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,400&family=Oswald:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link href="daily-challenge.css" rel="stylesheet" />
+    <!-- shared.css파일과 daily-challenge.css파일의 내용이 상충하면 후자의 내용으로 덮어씀. -->
+    <link href="myCss/shared.css" rel="stylesheet" />
+    <link href="myCss/daily-challenge.css" rel="stylesheet" />
     <title>My Daily Challenge</title>
   </head>
 
   <body>
-    <!-- h 태그는 head의 약자로 주로 웹사이트의 주요 제목을 표현 -->
-    <!-- style 영역을 CSS 코드라고 함. -->
-    <h1>Mhlee' Challenge for 2023-11-30</h1>
+    <header>
+      <img src="images/challenges-trophy.jpg" alt="A trophy" />
+      <!-- h 태그는 head의 약자로 주로 웹사이트의 주요 제목을 표현 -->
+    </header>
 
     <!-- p = paragraph -->
-    <p id="todays-challenge">
-      Learn about the basics of Web Development - Specifically dive into HTML &
-      CSS
-    </p>
-    <p>
-      <!-- a = anchor, href = hypertext reference  -->
-      I'll achieve this goal by diving into
-      <a href="https://www.google.com">more learning resources.</a>
-    </p>
+    <main>
+      <ol id="todays-challenge">
+        <li>
+          <h1>Mhlee' Challenge for 2023-12-18</h1>
+          <p>
+            Learn about the basics of Web Development - Specifically dive into
+            HTML & CSS
+          </p>
+        </li>
+      </ol>
+
+      <p>
+        <!-- a = anchor, href = hypertext reference  -->
+        Explore the
+        <a href="full-week.html">full week</a>
+      </p>
+    </main>
   </body>
 </html>
